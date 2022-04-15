@@ -24,3 +24,19 @@
     padding-left: 20px;
     font-size: 2.1rem;;
 }
+.small-heading{
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    font-weight: small;
+    font-style: italic;
+    font-size: 10px;
+}
+.small-heading-left{
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    font-weight: small;
+    font-style: italic;
+    font-size: 10px;
+}
