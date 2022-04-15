@@ -135,3 +135,36 @@ ul {
         width: 100%;
     }
 }
+
+@media (min-width: 808px) and (max-width:900px) {
+    .study{
+        top: 935px;
+
+    }
+}
+@media (min-width: 500px) and (max-width:808px) {
+    .study {
+        top: 1361px;
+    
+    }
+}
+@media (min-width: 300px) and (max-width:500px) {
+    .study {
+        top: 1361px;
+    
+    }
+    .Study-main__title{
+        width: 90%;
+    }
+}
+@media (min-width: 0px) and (max-width:300px) {
+    .study {
+        top: 1361px;
+    
+    }
+    .Study-main__title {
+        width: 90%;
+    }
+
+}
+

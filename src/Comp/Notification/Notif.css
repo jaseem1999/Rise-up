@@ -326,3 +326,148 @@ li {
         visibility: visible;
     }
 }
+@media (min-width: 808px) and (max-width:900px) {
+    .about{
+        width: 97%;
+        height: 400px;
+        margin-top: 410px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #eae4e4;
+    }
+    .content-main
+    {
+        background-color: white;
+        width: 99%;
+        height: 400px;
+        padding: 0px;
+        border: 2px solid #eae4e4;
+    }
+    .oldimag2 ,.oldimag3 ,.oldimag4 {
+        width: 71.5%;
+        height: 366px;
+        top: 166px;
+        
+    }
+}
+@media (min-width: 500px) and (max-width:807px) {
+    .notif_box {
+        width: 97%;
+        margin-top: 437px;
+    }
+    .content-main
+    {
+        width: 99%;
+        position: absolute;
+        margin-top: 0;
+    }
+
+    .about {
+        width: 97%;
+        height: 400px;
+        margin-top: 834px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #eae4e4;
+    }
+
+    .oldimag2,
+    .oldimag3,
+    .oldimag4 {
+            width: 100%;
+            height: 361px;
+            top: 40px;
+
+    }
+}
+@media (min-width: 300px) and (max-width:499px) {
+    .notif_box {
+        width: 97%;
+        margin-top: 437px;
+    }
+    .content-main
+    {
+        width: 98%;
+        position: absolute;
+        margin-top: 0;
+    }
+
+    .about {
+        width: 97%;
+        height: 400px;
+        margin-top: 834px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #eae4e4;
+    }
+
+    .oldimag2,
+    .oldimag3,
+    .oldimag4 {
+        width: 100%;
+        height: 361px;
+        top: 40px;
+
+    }
+}
+@media (min-width: 200px) and (max-width:299px) {
+    .notif_box {
+        width: 97%;
+        margin-top: 437px;
+    }
+    .content-main
+    {
+        width: 98%;
+        position: absolute;
+        margin-top: 0;
+    }
+
+    .about {
+        width: 97%;
+        height: 400px;
+        margin-top: 834px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #eae4e4;
+    }
+
+    .oldimag2,
+    .oldimag3,
+    .oldimag4 {
+        width: 100%;
+        height: 361px;
+        top: 40px;
+
+    }
+}
+@media (min-width: 0px) and (max-width:199px) {
+  
+    .notif_box {
+        width: 97%;
+        margin-top: 437px;
+    }
+    .content-main
+    {
+        width: 98%;
+        position: absolute;
+        margin-top: 0;
+    }
+
+    .about {
+        width: 97%;
+        height: 400px;
+        margin-top: 834px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 2px solid #eae4e4;
+    }
+
+    .oldimag2,
+    .oldimag3,
+    .oldimag4 {
+        width: 100%;
+        height: 361px;
+        top: 40px;
+
+    }
+}

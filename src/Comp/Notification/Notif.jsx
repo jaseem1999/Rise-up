@@ -4,6 +4,7 @@ import '../Notification/Notif.css'
 function Notif() {
   let noti = [
     {noti: `കേന്ദ്ര _സംസ്ഥാന സർവകശാലകളിലേകു ള്ള പിജി എൻട്രൻസ് പരീക്ഷക്ക് തയ്യാറാടുക്കുന്ന വിദ്യാർത്ഥികൾക് ജോയിൻ ചെയ്യാം`, notiLink :  <a href="https://chat.whatsapp.com/H4fHyxfZsSk3p2CV8pmSE4">WhatsApp Group</a>},
+    {noti: `Application invited for PG Entrance Test 2022 @ UNIVERSITY OF KERALA`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Karala University PG</a>},
     {noti : `DELHI UNIVERSITY: APPLICATIONS ARE INVITED FOR PG PROGRAMMES  📍Due date of application: 15 May 2022 📍Application fee: EN/OBC/EWS - ₹750 SC/ST/PwS - ₹300 For application:`, notiLink : <a href="https://pgadmission.uod.ac.in/" >Delhi Application</a>},
     {noti : `കാലിക്കറ്റ് സര്‍വകലാശാല PG പ്രവേശനപരീക്ഷയ്ക്ക്  ഇപ്പോൾ അപേക്ഷിക്കാം `, notiLink : <a href="http://admission.uoc.ac.in/" >Calicut University PG Entrance</a>}, 
     {noti:`MBA പ്രവേശന പരീക്ഷ ( കെ മാറ്റ്) അപേക്ഷ ക്ഷണിച്ചു`, notiLink : <a href="https://www.hctkmat.in/">MBA Admission 2020</a>},
@@ -11,7 +12,7 @@ function Notif() {
   return (
     <div className="Notif">
         <div className="notif_box">
-            <div className="notif_box__title">Rise-Up Notifications</div>
+            <div className="notif_box__title">Rise-Up Notifications <br/> <img src="https://www.fg-a.com/new/new-purple-animation.gif"  width="40px" alt="new"/></div>
             <div className="notif_content">
               <ul>
                 
