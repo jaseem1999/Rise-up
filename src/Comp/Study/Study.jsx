@@ -1,5 +1,9 @@
 import React from 'react'
 import '../Study/Study.css'
+import { BsFacebook,BsFillEnvelopeFill } from 'react-icons/bs';
+import {AiFillInstagram} from 'react-icons/ai';
+import {FaBloggerB} from 'react-icons/fa';
+import {BiWorld} from 'react-icons/bi';
 
 function Study() {
   return (
@@ -44,15 +48,16 @@ function Study() {
 
 
         </div>
-  	 		{/* <div className="footer-col"> */}
-  	 			{/* <h4>follow us</h4> */}
-  	 			{/* <div class="social-links"> */}
-  	 				{/* <a href="https://"><i class="fab fa-facebook-f"></i></a> */}
-  	 				{/* <a href="https://"><i class="fab fa-twitter"></i></a> */}
-  	 				{/* <a href="https://"><i class="fab fa-instagram"></i></a> */}
-  	 				{/* <a href="https://"><i class="fab fa-linkedin-in"></i></a> */}
-  	 			{/* </div> */}
-  	 		{/* </div> */}
+  	 		<div className="footer-col"> 
+  	 		   <h4>follow us</h4>
+  	 			   <div class="social-links"> 
+  	 				    <a href="https://www.facebook.com/Sfi-Mes-Kalladi-College-647106115341558/"><div className="logo"><BsFacebook/></div></a>
+  	 				    <a href="https://www.instagram.com/sfi_meskc/"><div className="logo"><AiFillInstagram/></div></a>
+  	 				    <a href="https://sfimeskc.blogspot.com/"><div className="logo"><FaBloggerB/></div></a>
+  	 			    	<a href="https://mailto:ajkkalappatt@gmail.com"><div className="logo"><BsFillEnvelopeFill/></div></a>
+                <a href="https://sfimeskc.in"><div className="logo"><BiWorld/></div></a>
+  	 			 </div> 
+  	 		 </div> 
 
       </div>
     </div>

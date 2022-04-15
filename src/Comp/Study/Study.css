@@ -121,6 +121,10 @@ ul {
     color: #24262b;
     background-color: #ffffff;
 }
+.logo svg {
+    width: 26px;
+    height: 40px;
+}
 
 /*responsive*/
 @media(max-width: 767px) {
