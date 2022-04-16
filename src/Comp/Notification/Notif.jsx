@@ -4,6 +4,7 @@ import '../Notification/Notif.css'
 function Notif() {
   let noti = [
     {noti: `കേന്ദ്ര _സംസ്ഥാന സർവകശാലകളിലേകു ള്ള പിജി എൻട്രൻസ് പരീക്ഷക്ക് തയ്യാറാടുക്കുന്ന വിദ്യാർത്ഥികൾക് ജോയിൻ ചെയ്യാം`, notiLink :  <a href="https://chat.whatsapp.com/H4fHyxfZsSk3p2CV8pmSE4">WhatsApp Group</a>},
+    {noti: `ജാമിഅ മില്ലിയ്യ ഇസ്ലാമിയ്യ 2022-23 അധ്യയന വർഷത്തേക്കുള്ള ഡിഗ്രീ, പിജി, ഡിപ്ലോമ എൻട്രൻസ് പരീക്ഷകൾക്ക് അപേക്ഷ ക്ഷണിച്ചു.`, notiLink : <a href="https://www.jmi.ac.in/">Jamia millia Islamic JMI</a>},
     {noti: `Application invited for PG Entrance Test 2022 @ UNIVERSITY OF KERALA`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Karala University PG</a>},
     {noti : `DELHI UNIVERSITY: APPLICATIONS ARE INVITED FOR PG PROGRAMMES  📍Due date of application: 15 May 2022 📍Application fee: EN/OBC/EWS - ₹750 SC/ST/PwS - ₹300 For application:`, notiLink : <a href="https://pgadmission.uod.ac.in/" >Delhi Application</a>},
     {noti : `കാലിക്കറ്റ് സര്‍വകലാശാല PG പ്രവേശനപരീക്ഷയ്ക്ക്  ഇപ്പോൾ അപേക്ഷിക്കാം `, notiLink : <a href="http://admission.uoc.ac.in/" >Calicut University PG Entrance</a>}, 
@@ -76,9 +77,14 @@ function Notif() {
         
       </div>
           </div>
-        <div className="about">
+        <div id="about" className="about">
             <div className="about__title">About</div>
             <div className="about__content">
+              <p>
+                  Rise up🪁 <br/>Run by: com musthafa study circles<br/>
+                  com muhammed mustafa study circles run by <a href="http://sfimeskc.in">SFI MES KC</a><br/>
+                  Rise up convener Irshad(History Dept Batch 19-22 ) and Shamnad(B.com CA Batch 19-22) <br/>
+              </p>
               
             </div>
         </div>    

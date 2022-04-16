@@ -23,6 +23,24 @@
     color: rgb(240, 241, 243);
     background-color: rgb(118 141 119 / 33%);
 }
+.Study-main__title1{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 20px;
+    width: 75%;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(58, 59, 60);
+    background-color: white;
+}
+.Study-main__subtitle{
+    font-weight: bold;
+    font-size: 15px;
+    color: #555656;
+    margin-left: 30px;
+}
 .Study-main__subtitle__text{
     justify-content: center;
     align-items: center;

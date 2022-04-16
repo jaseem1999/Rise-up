@@ -326,6 +326,11 @@ li {
         visibility: visible;
     }
 }
+.about__content{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: smaller;
+}
 @media (min-width: 808px) and (max-width:900px) {
     .about{
         width: 97%;
