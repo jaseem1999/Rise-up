@@ -1,19 +1,19 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Create React App for rise up",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://muskegonpregnancyservices.org/wp-content/uploads/2020/02/RiseUp_Logo-Color.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://muskegonpregnancyservices.org/wp-content/uploads/2020/02/RiseUp_Logo-Color.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://muskegonpregnancyservices.org/wp-content/uploads/2020/02/RiseUp_Logo-Color.png",
       "type": "image/png",
       "sizes": "512x512"
     }

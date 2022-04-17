@@ -42,12 +42,10 @@
     margin-left: 30px;
 }
 .Study-main__subtitle__text{
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #e91e63;
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 1Opx;
+    color: #000000;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
