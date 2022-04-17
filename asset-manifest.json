@@ -1,19 +1,45 @@
 {
   "files": {
     "main.css": "/Rise-up/static/css/main.3258df31.css",
-    "main.js": "/Rise-up/static/js/main.2baf09bd.js",
+    "main.js": "/Rise-up/static/js/main.06765bc4.js",
     "static/js/787.9854f2b8.chunk.js": "/Rise-up/static/js/787.9854f2b8.chunk.js",
+    "static/media/BCM4B06 - Corporate Regulations.pdf": "/Rise-up/static/media/BCM4B06 - Corporate Regulations.0a2cdebc9ca4c8b346c6.pdf",
+    "static/media/BANKING AND INSURANCE COMPRESSED.pdf": "/Rise-up/static/media/BANKING AND INSURANCE COMPRESSED.1dbe1ba9fadf2bd950b7.pdf",
+    "static/media/SLM- 19613- B Com-Accounting for Management.pdf": "/Rise-up/static/media/SLM- 19613- B Com-Accounting for Management.80e67bee6ee29b392dc4.pdf",
+    "static/media/SLM-B Com-Fundamentals of investment to print (revised).pdf": "/Rise-up/static/media/SLM-B Com-Fundamentals of investment to print (revised).6097130e0a0faa817a5a.pdf",
+    "static/media/Managerial Economics ( B.Com_.).pdf": "/Rise-up/static/media/Managerial Economics ( B.Com_.).9a33294433a214d0942b.pdf",
+    "static/media/B.Com- Marketing Management 2019 Admn.pdf": "/Rise-up/static/media/B.Com- Marketing Management 2019 Admn.2177c0df337a780ce4bb.pdf",
+    "static/media/SLM-19615-B Com-INCOME TAX LAW AND ACCOUNTS_1.pdf": "/Rise-up/static/media/SLM-19615-B Com-INCOME TAX LAW AND ACCOUNTS_1.c0e378a3ce22937f9f0e.pdf",
+    "static/media/BUSINESS MANAGEMENT.pdf": "/Rise-up/static/media/BUSINESS MANAGEMENT.6e5fe5f86e229c127460.pdf",
+    "static/media/SLM-B Com-INTERNATIONAL CO-OPERATIVE MOVEMENT final_0.pdf": "/Rise-up/static/media/SLM-B Com-INTERNATIONAL CO-OPERATIVE MOVEMENT final_0.3d029e92b7f4f42bbff9.pdf",
+    "static/media/Ways with words.pdf": "/Rise-up/static/media/Ways with words.7f4bcae90018d3d7ff18.pdf",
+    "static/media/SLM-19617-B Com-Financial Management (1).pdf": "/Rise-up/static/media/SLM-19617-B Com-Financial Management (1).d63e85f605dd9f913660.pdf",
+    "static/media/III Sem - B Com-Business Regulations.pdf": "/Rise-up/static/media/III Sem - B Com-Business Regulations.8ae836756f26c38c1190.pdf",
+    "static/media/I Sem. - Transactions 2019 Admn..pdf": "/Rise-up/static/media/I Sem. - Transactions 2019 Admn..321fc4bab2e4a0a3952c.pdf",
+    "static/media/SLM-B Com- Co-operative Managements and Administration (1).pdf": "/Rise-up/static/media/SLM-B Com- Co-operative Managements and Administration (1).40860b6100321916ac81.pdf",
+    "static/media/BComCoreCostAccounting_on09March2016.pdf": "/Rise-up/static/media/BComCoreCostAccounting_on09March2016.cead09baad1080b08891.pdf",
+    "static/media/SLM-B.COM - INCOME TAX AND GST.pdf": "/Rise-up/static/media/SLM-B.COM - INCOME TAX AND GST.0ddcb43d2bc28b85625a.pdf",
+    "static/media/SLM-19616-C-B Com-Co-operative theory and practice.pdf": "/Rise-up/static/media/SLM-19616-C-B Com-Co-operative theory and practice.b20562d4a05123823036.pdf",
+    "static/media/SLM-19614-B Com-Business Research Methods.pdf": "/Rise-up/static/media/SLM-19614-B Com-Business Research Methods.878847bef13a7a361907.pdf",
+    "static/media/SLM-B Com- FINANCIAL DERIVATIVES final.pdf": "/Rise-up/static/media/SLM-B Com- FINANCIAL DERIVATIVES final.2a9b726419a6dd8f8835.pdf",
+    "static/media/III Sem -B Com-comple-Human Resource Management.pdf": "/Rise-up/static/media/III Sem -B Com-comple-Human Resource Management.c79907784e9f76d48f4a.pdf",
+    "static/media/Zeitgeist SLM - 2019 Admn..pdf": "/Rise-up/static/media/Zeitgeist SLM - 2019 Admn..c711cba0b030b3d2427e.pdf",
+    "static/media/SLM-19617- LEGAL ENVIRONMENT FOR CO-OPERATIVES.pdf": "/Rise-up/static/media/SLM-19617- LEGAL ENVIRONMENT FOR CO-OPERATIVES.a0081bdf811803c24622.pdf",
+    "static/media/Writing for Academic - SLM 2019 Admn..pdf": "/Rise-up/static/media/Writing for Academic - SLM 2019 Admn..dff1981def39fc6aa640.pdf",
+    "static/media/SLM-B Com-AUDITING.pdf": "/Rise-up/static/media/SLM-B Com-AUDITING.7425b607f5c469b4cb2c.pdf",
+    "static/media/SLM-19616-B Com-Financial Markets and Services_0.pdf": "/Rise-up/static/media/SLM-19616-B Com-Financial Markets and Services_0.e9df282ec4257605ae47.pdf",
+    "static/media/BCM3A12- BBA3A12 PROFESSIONAL BUSINESS SKILLS.pdf": "/Rise-up/static/media/BCM3A12- BBA3A12 PROFESSIONAL BUSINESS SKILLS.280a773fd0721aa33071.pdf",
     "static/media/cu.jpg": "/Rise-up/static/media/cu.07ff99ce73745eb54ae1.jpg",
     "static/media/delhi.jpg": "/Rise-up/static/media/delhi.813ff9f6052e86334125.jpg",
     "static/media/JMU.jpg": "/Rise-up/static/media/JMU.b8f41add325ac9d8d383.jpg",
     "static/media/cucet-2022.webp": "/Rise-up/static/media/cucet-2022.73d3e2323a7fc0cc16a1.webp",
     "index.html": "/Rise-up/index.html",
     "main.3258df31.css.map": "/Rise-up/static/css/main.3258df31.css.map",
-    "main.2baf09bd.js.map": "/Rise-up/static/js/main.2baf09bd.js.map",
+    "main.06765bc4.js.map": "/Rise-up/static/js/main.06765bc4.js.map",
     "787.9854f2b8.chunk.js.map": "/Rise-up/static/js/787.9854f2b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3258df31.css",
-    "static/js/main.2baf09bd.js"
+    "static/js/main.06765bc4.js"
   ]
 }
