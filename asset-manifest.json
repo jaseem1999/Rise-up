@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Rise-up/static/css/main.bb84f20d.css",
-    "main.js": "/Rise-up/static/js/main.fcc350c3.js",
+    "main.css": "/Rise-up/static/css/main.3258df31.css",
+    "main.js": "/Rise-up/static/js/main.2baf09bd.js",
     "static/js/787.9854f2b8.chunk.js": "/Rise-up/static/js/787.9854f2b8.chunk.js",
     "static/media/cu.jpg": "/Rise-up/static/media/cu.07ff99ce73745eb54ae1.jpg",
     "static/media/delhi.jpg": "/Rise-up/static/media/delhi.813ff9f6052e86334125.jpg",
     "static/media/JMU.jpg": "/Rise-up/static/media/JMU.b8f41add325ac9d8d383.jpg",
     "static/media/cucet-2022.webp": "/Rise-up/static/media/cucet-2022.73d3e2323a7fc0cc16a1.webp",
     "index.html": "/Rise-up/index.html",
-    "main.bb84f20d.css.map": "/Rise-up/static/css/main.bb84f20d.css.map",
-    "main.fcc350c3.js.map": "/Rise-up/static/js/main.fcc350c3.js.map",
+    "main.3258df31.css.map": "/Rise-up/static/css/main.3258df31.css.map",
+    "main.2baf09bd.js.map": "/Rise-up/static/js/main.2baf09bd.js.map",
     "787.9854f2b8.chunk.js.map": "/Rise-up/static/js/787.9854f2b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb84f20d.css",
-    "static/js/main.fcc350c3.js"
+    "static/css/main.3258df31.css",
+    "static/js/main.2baf09bd.js"
   ]
 }
