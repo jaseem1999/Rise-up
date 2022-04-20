@@ -42,6 +42,46 @@ function Materials() {
         {material: <a href={require('./bcom/SLM-B Com-INTERNATIONAL CO-OPERATIVE MOVEMENT final_0.pdf')} >investment Corporative MOVEMENT</a>, title: "B .com 6th Semester"},
         {material: <a href={require('./bcom/SLM-B.COM - INCOME TAX AND GST.pdf')} >incom tax and gst</a>, title: "B .com 6th Semester"},
     ]
+    let bba1 = [
+        {material: <a href={require('./bba/Management Theory and Practices -BBA1B01.pdf')}>Management Theory and Practices -BBA1B01</a>, title: 'BBA 1st semester'},
+        {material: <a href={require('./bba/Managerial Economics-BBA1C01.pdf')}>Managerial Economics</a>, title: 'BBA 1st semester'},
+        {material: <a href={require('./bba/I Sem. - Transactions 2019 Admn..pdf')}>Transaction</a>, title: 'BBA 1st semester'},
+        {material: <a href={require('./bba/I Sem. - Ways with words 2019 Admn..pdf')}>Ways with words</a>, title: 'BBA 1st semester'},
+    ]
+    let bba2 = [
+        {material: <a href={require('./bba/II Sem. - MARKETING MANAGEMENT - 2019 Admn..pdf')}>MARKETING MANAGEMENT</a>, title: 'BBA 2nd semester'},
+        {material: <a href={require('./bba/II Sem. - Financial Accounting - 2019 Admn..pdf')}>financial accounting</a>, title: 'BBA 2nd semester'}, 
+        {material: <a href={require('./bba/Zeitgeist SLM - 2019 Admn..pdf')}>Zeitgeist</a>, title: 'BBA 2nd semester'},
+        {material: <a href={require('./bba/Communicative Arabic - 2019 Admn..pdf')}>Arabic</a>, title: 'BBA 2nd semester'},
+        {material: <a href={require('./bba/Writing for Academic - SLM 2019 Admn..pdf')}>Writing for Academic</a>, title: 'BBA 2nd semester'},   
+    ]
+    let bba3 = [
+        {material: <a href={require('./bba/BBA III Semester - BBA3B04 - Corporate Accounting.pdf')}>Corporate Accounting</a>, title : 'BBA 3rd semester'},
+        {material: <a href={require('./bba/BBA III Semester - BBA3C02 - Business Regulations_0.pdf')}>Business Regulations</a>, title : 'BBA 3rd semester'},
+        {material: <a href={require('./bba/BCM3A12- BBA3A12 PROFESSIONAL BUSINESS SKILLS.pdf')}>Prefessinal Business SKILLS</a>, title : 'BBA 3rd semester'},
+   
+    ]
+    let bba4 = [
+        {material : <a href={require('./bba/BANKING AND INSURANCE COMPRESSED.pdf')}>Banking and INSURANCE COMPRESSED</a>, title : 'BBA 4th semester'},
+        {material : <a href={require('./bba/BBA4C03 - Corporate Regulations.pdf')}>Corporate Regulations</a>, title : 'BBA 4th semester'},
+        {material : <a href={require('./bba/core BBA.pdf')}>Cost management Accounting</a>, title : 'BBA 4th semester'},
+        {material : <a href={require('./bba/ENTREPRENEURSHIP DEVELOPMENT.pdf')}>ENTREPRENEURSHIP DEVELOPMENT</a>, title : 'BBA 4th semester'},
+        {material : <a href={require('./bba/QT.pdf')}>Quantitative Technique for Business</a>, title : 'BBA 4th semester'},
+    ]
+    let bba5 = [
+        {material : <a href={require('./bba/SLM- 19665-BBA -  OPERATIONS MANAGEMENT.pdf')}>Operations MANAGEMENT</a>, title : 'BBA 5th semester'},
+        {material : <a href={require('./bba/SLM-19663-BBA-HUMAN RESOURCES MANAGEMENT.pdf')}>HRM</a>, title : 'BBA 5th semester'},
+        {material : <a href={require('./bba/SLM-19664-BBA-Business Reseach Methods.pdf')}>BRM</a>, title : 'BBA 5th semester'},
+        {material : <a href={require('./bba/SLM-19665(F)-BBA- INCOME TAX-final.pdf')}>INCOME Tax</a>, title : 'BBA 5th semester'},
+        {material : <a href={require('./bba/SLM-19667-BBA - Fiancial Markets and Institutions.pdf')}>Financial Markets and Institutions</a>, title : 'BBA 5th semester'},
+    ]
+    let bba6 = [
+        {material : <a href={require('./bba/SLM-BBA- FINANCIAL SERVICES.pdf')}>Financial Services</a>, title : 'BBA 6th semester'},
+        {material : <a href={require('./bba/SLM-BBA- INVESTMENT MANAGEMENT.pdf')}>INVESTMENT management</a>, title : 'BBA 6th semester'},
+        {material : <a href={require('./bba/SLM-BBA-MANAGEMENT SCIENCE final.pdf')}>Management Science</a>, title : 'BBA 6th semester'},
+        {material : <a href={require('./bba/SLM-BBA-Organisational Behaviour.pdf')}>Organisational Behaviour</a>, title : 'BBA 6th semester'},
+        {material : <a href={require('./bba/SLM-Project Management.pdf')}>Project Management</a>, title : 'BBA 6th semester'},
+    ]
 
   return (
     <div>
@@ -108,6 +148,77 @@ function Materials() {
                     <div className="material-sem">B.com 6th Semester</div>
                         {
                             bcom6.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                </div>
+            
+            </div>
+            <div className="Main-Head">BBA</div>
+            <div className="row">
+                <div className="footer-col">
+                <ol>
+                    <div className="material-sem">BBA 1st Semester</div>
+                    {
+                            bba1.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                    </div>
+                    <div className="footer-col">
+                <ol>
+                    
+                    <div className="material-sem">BBA 2nd Semester</div>
+                        {
+                            bba2.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                </div>
+                <div className="footer-col">
+                <ol> 
+                    <div className="material-sem">BBA 3rd Semester</div>
+                        {
+                            bba3.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                </div>
+                <div className="footer-col">
+                <ol> 
+                    <div className="material-sem">BBA 4th Semester</div>
+                        {
+                            bba4.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                </div>
+                <div className="footer-col">
+                <ol> 
+                    <div className="material-sem">BBA 5th Semester</div>
+                        {
+                            bba5.map(function(item, index){
+                                return <div key={index}>
+                                <li>{item.material}</li></div> 
+                            })
+                        }
+                </ol>
+                </div>
+                <div className="footer-col">
+                <ol> 
+                    <div className="material-sem">BBA 6th Semester</div>
+                        {
+                            bba6.map(function(item, index){
                                 return <div key={index}>
                                 <li>{item.material}</li></div> 
                             })
