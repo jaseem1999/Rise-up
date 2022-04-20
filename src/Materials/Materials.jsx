@@ -2,6 +2,7 @@ import React from 'react'
 import './Materials.css'
 
 function Materials() {
+    // B.com Study Materials
     let bcom1 = [
         {material: <a href={require('./bcom/BUSINESS MANAGEMENT.pdf')} >BUSINESS MANAGEMENT</a>, title: "B .com 1st Semester"},
         {material: <a href={require('./bcom/Managerial Economics ( B.Com_.).pdf')} >Managerial Economics</a>, title: "B .com 1st Semester"},
@@ -42,6 +43,7 @@ function Materials() {
         {material: <a href={require('./bcom/SLM-B Com-INTERNATIONAL CO-OPERATIVE MOVEMENT final_0.pdf')} >investment Corporative MOVEMENT</a>, title: "B .com 6th Semester"},
         {material: <a href={require('./bcom/SLM-B.COM - INCOME TAX AND GST.pdf')} >incom tax and gst</a>, title: "B .com 6th Semester"},
     ]
+    // BBA study materials
     let bba1 = [
         {material: <a href={require('./bba/Management Theory and Practices -BBA1B01.pdf')}>Management Theory and Practices -BBA1B01</a>, title: 'BBA 1st semester'},
         {material: <a href={require('./bba/Managerial Economics-BBA1C01.pdf')}>Managerial Economics</a>, title: 'BBA 1st semester'},
@@ -85,6 +87,7 @@ function Materials() {
 
   return (
     <div>
+        {/* B.com Section */}
         <div className="Main-Head">B.com</div>
             <div className="row">
                 <div className="footer-col">
@@ -156,6 +159,7 @@ function Materials() {
                 </div>
             
             </div>
+            {/* BBA Section */}
             <div className="Main-Head">BBA</div>
             <div className="row">
                 <div className="footer-col">

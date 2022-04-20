@@ -5,6 +5,7 @@ import {AiFillInstagram} from 'react-icons/ai';
 import {FaBloggerB} from 'react-icons/fa';
 import {BiWorld} from 'react-icons/bi';
 import Materials from '../../Materials/Materials';
+import BaHistory from '../../Materials/BaHistory';
 
 function Study() {
   return (
@@ -16,12 +17,12 @@ function Study() {
          <div className="Study-main__title1">UG Study material</div>
          <div className="Study-main__subtitle">BBA/B.com</div>
             <div className="Study-main__subtitle__text">
-                <Materials/>
+              <Materials/>
             </div>
-            
+              
             <div className="Study-main__subtitle">BA History</div>
             <div className="Study-main__subtitle__text">
-             
+              <BaHistory/>
             </div>
             <div className="Study-main__subtitle">BA English</div>
             <div className="Study-main__subtitle__text">
