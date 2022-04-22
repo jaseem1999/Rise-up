@@ -4,6 +4,7 @@ import '../Notification/Notif.css'
 function Notif() {
   let noti = [
     {noti: `കേന്ദ്ര _സംസ്ഥാന സർവകശാലകളിലേകു ള്ള പിജി എൻട്രൻസ് പരീക്ഷക്ക് തയ്യാറാടുക്കുന്ന വിദ്യാർത്ഥികൾക് ജോയിൻ ചെയ്യാം`, notiLink :  <a href="https://chat.whatsapp.com/H4fHyxfZsSk3p2CV8pmSE4">WhatsApp Group</a>},
+    {noti: `സംസ്കൃത സർവകലാശാല ബിരുദാനന്തര ബിരുദ പ്രോഗ്രാമുകളിലേക്കുള്ള അപേക്ഷ ക്ഷണിച്ചു |വിവിധ ഭാഷകൾ പഠിക്കാം`, notiLink :  <a href="https://ssus.ac.in/">Sree Sankaracharya University of Sanskrit</a>},
     {noti: `കേരള യൂണിവേഴ്സിറ്റി ഡിപ്പാർട്ട്മെൻ്റിലേക്കുള്ള വിവിധ പി.ജി  കോഴ്സുകൾക്ക് അപേക്ഷ ക്ഷണിച്ചു`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Kerala University</a>},
     {noti: `ജാമിഅ മില്ലിയ്യ ഇസ്ലാമിയ്യ 2022-23 അധ്യയന വർഷത്തേക്കുള്ള ഡിഗ്രീ, പിജി, ഡിപ്ലോമ എൻട്രൻസ് പരീക്ഷകൾക്ക് അപേക്ഷ ക്ഷണിച്ചു.`, notiLink : <a href="https://www.jmi.ac.in/">Jamia millia Islamic JMI</a>},
     {noti: `Application invited for PG Entrance Test 2022 @ UNIVERSITY OF KERALA`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Karala University PG</a>},
@@ -36,12 +37,6 @@ function Notif() {
             <div class="oldimag1">
       
       
-           <div class="title1">
-          Delhi University PG Admission 2022
-        </div>
-        <div class="link1">
-          <a href="https://pgadmission.uod.ac.in/index.php/site/login"><span className='apply1'>Click here to apply</span></a>
-        </div>
         
       </div>
       <div class="oldimag2">
@@ -77,6 +72,51 @@ function Notif() {
         
         
       </div>
+       <div class="oldimag5"> 
+
+       <div class="title1">
+          Delhi University PG Admission 2022
+        </div>
+        <div class="link1">
+          <a href="https://pgadmission.uod.ac.in/index.php/site/login"><span className='apply1'>Click here to apply</span></a>
+        </div>
+        
+        
+      </div>
+        <div class="oldimag6"> 
+
+
+        <div class="title">
+           Jawaharlal Nehru University
+        </div>
+        <div class="link">
+          <a href="https://www.jnu.ac.in/main/"><span className='apply'>Click here to apply</span></a>
+        </div>
+        
+        
+      </div>
+        <div class="oldimag7"> 
+
+
+        <div class="title">
+         
+         Kerala University 
+        </div>
+        <div class="link">
+          <a href="https://admissions.keralauniversity.ac.in/"><span className='apply'>Click here to apply</span></a>
+        </div>
+        
+        
+      </div>
+       <div class="oldimag8"> 
+
+
+        <div class="title">
+        </div>
+       
+        
+      </div>
+      
           </div>
         <div id="about" className="about">
             <div className="about__title">About</div>

@@ -85,7 +85,7 @@ li {
 .oldimag1 {
     width: 100%;
     height: 361px;
-    background-image: url('img/delhi.jpg');
+    background-image: url('img/rise.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -222,40 +222,111 @@ li {
     background-position: center;
     background-size: cover;
 }
+.oldimag5 {
+    position: absolute;
+    top: 148px;
+    width: 49%;
+    height: 361px;
+    background-image: url('img/delhi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.oldimag6 {
+    position: absolute;
+    top: 148px;
+    width: 49%;
+    height: 361px;
+    background-image: url('img/jnu.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.oldimag7 {
+    position: absolute;
+    top: 148px;
+    width: 49%;
+    height: 361px;
+    background-image: url('img/kerala.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.oldimag8{
+    position: absolute;
+    top: 148px;
+    width: 49%;
+    height: 361px;
+    background-image: url('img/STUDY\ CIRCLE\ ing\ sachin.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .oldimag1 {
-    animation: slide1 30s linear infinite;
+    animation: slide1 25s linear infinite;
 }
 
 .oldimag2 {
-    animation: slide2 30s linear infinite;
+    animation: slide2 25s linear infinite;
 }
 
 .oldimag3 {
-    animation: slide3 30s linear infinite;
+    animation: slide3 25s linear infinite;
 }
 
 .oldimag4 {
-    animation: slide4 30s linear infinite;
+    animation: slide4 25s linear infinite;
 }
+.oldimag5 {
+    animation: slide5 25s linear infinite;
+}
+.oldimag6 {
+    animation: slide6 25s linear infinite;
+}
+.oldimag7 {
+    animation: slide7 25s linear infinite;
+}
+.oldimag8 {
+    animation: slide8 25s linear infinite;
+}
+
 
 @keyframes slide1 {
     0% {
         visibility: visible;
     }
 
-    25% {
+    10% {
         visibility: hidden;
     }
 
+    20% {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    40% {
+        visibility: hidden;
+    }
     50% {
         visibility: hidden;
     }
-
-    75% {
+    60% {
         visibility: hidden;
     }
-
+    70% {
+        visibility: hidden;
+    }
+    80% {
+        visibility: hidden;
+    }
+    90% {
+        visibility: hidden;
+    }
     100% {
         visibility: visible;
     }
@@ -265,44 +336,94 @@ li {
     0% {
         visibility: hidden;
     }
-
-    25% {
+    
+    10% {
         visibility: hidden;
     }
-
-    50% {
+    
+    20% {
         visibility: visible;
     }
-
-    75% {
+    
+    30% {
         visibility: hidden;
     }
-
+    
+    40% {
+        visibility: hidden;
+    }
+    
+    50% {
+        visibility: hidden;
+    }
+    
+    60% {
+        visibility: hidden;
+    }
+    
+    70% {
+        visibility: hidden;
+    }
+    
+    80% {
+        visibility: hidden;
+    }
+    
+    90% {
+        visibility: hidden;
+    }
+    
     100% {
         visibility: hidden;
     }
 }
 
+
 @keyframes slide3 {
     0% {
         visibility: hidden;
     }
-
-    25% {
+    
+    10% {
         visibility: hidden;
     }
-
+    
+    20% {
+        visibility: hidden;
+    }
+    
+    30% {
+        visibility: visible;
+    }
+    
+    40% {
+        visibility: hidden;
+    }
+    
     50% {
         visibility: hidden;
     }
-
-    75% {
-        visibility: visible;
+    
+    60% {
+        visibility: hidden;
     }
-
+    
+    70% {
+        visibility: hidden;
+    }
+    
+    80% {
+        visibility: hidden;
+    }
+    
+    90% {
+        visibility: hidden;
+    }
+    
     100% {
         visibility: hidden;
     }
+        
 }
 
 @keyframes slide4 {
@@ -310,7 +431,109 @@ li {
         visibility: hidden;
     }
 
-    25% {
+    10% {
+        visibility: hidden;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    40% {
+        visibility: visible;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    60% {
+        visibility: hidden;
+    }
+
+    70% {
+        visibility: hidden;
+    }
+
+    80% {
+        visibility: hidden;
+    }
+
+    90% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes slide5 {
+    0% {
+        visibility: hidden;
+    }
+    
+    10% {
+        visibility: hidden;
+    }
+    
+    20% {
+        visibility: hidden;
+    }
+    
+    30% {
+        visibility: hidden;
+    }
+    
+    40% {
+        visibility: hidden;
+    }
+    
+    50% {
+        visibility: visible;
+    }
+    
+    60% {
+        visibility: hidden;
+    }
+    
+    70% {
+        visibility: hidden;
+    }
+    
+    80% {
+        visibility: hidden;
+    }
+    
+    90% {
+        visibility: hidden;
+    }
+    
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes slide6 {
+    0% {
+        visibility: hidden;
+    }
+
+    10% {
+        visibility: hidden;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    40% {
         visibility: hidden;
     }
 
@@ -318,14 +541,117 @@ li {
         visibility: hidden;
     }
 
-    75% {
+    60% {
+        visibility: visible;
+    }
+
+    70% {
+        visibility: hidden;
+    }
+
+    80% {
+        visibility: hidden;
+    }
+
+    90% {
         visibility: hidden;
     }
 
     100% {
-        visibility: visible;
+        visibility: hidden;
     }
 }
+@keyframes slide7 {
+    0% {
+        visibility: hidden;
+    }
+
+    10% {
+        visibility: hidden;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    40% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    60% {
+        visibility: hidden;
+    }
+
+    70% {
+        visibility: visible;
+    }
+
+    80% {
+        visibility: hidden;
+    }
+
+    90% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes slide8 {
+    0% {
+        visibility: hidden;
+    }
+
+    10% {
+        visibility: hidden;
+    }
+
+    20% {
+        visibility: hidden;
+    }
+
+    30% {
+        visibility: hidden;
+    }
+
+    40% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    60% {
+        visibility: hidden;
+    }
+
+    70% {
+        visibility: hidden;
+    }
+
+    80% {
+        visibility: visible;
+    }
+
+    90% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
 .about__content{
     margin-left: 10px;
     font-style: italic;
@@ -348,11 +674,16 @@ li {
         padding: 0px;
         border: 2px solid #eae4e4;
     }
-    .oldimag2 ,.oldimag3 ,.oldimag4 {
-        width: 71.5%;
+    .oldimag2 ,.oldimag3  ,.oldimag6 ,.oldimag7,
+    .oldimag8 {
+        width: 72.5%;
         height: 366px;
-        top: 166px;
-        
+        top: 146px;
+    }
+    .oldimag4,.oldimag5{
+        width: 73%;
+        height: 366px;
+        top: 147px;
     }
 }
 @media (min-width: 500px) and (max-width:807px) {
@@ -378,11 +709,18 @@ li {
 
     .oldimag2,
     .oldimag3,
-    .oldimag4 {
+    .oldimag6,
+    .oldimag7, 
+    .oldimag8 {
             width: 100%;
             height: 361px;
             top: 40px;
 
+    }
+    .oldimag4, .oldimag5 {
+            width: 100%;
+            height: 366px;
+            top: 40px;
     }
 }
 @media (min-width: 300px) and (max-width:499px) {
@@ -408,11 +746,19 @@ li {
 
     .oldimag2,
     .oldimag3,
-    .oldimag4 {
+    
+    .oldimag6,
+    .oldimag7,
+    .oldimag8 {
         width: 100%;
         height: 361px;
         top: 40px;
 
+    }
+    .oldimag4 ,.oldimag5 {
+        width: 100%;
+        height: 360px;
+        top: 42px;
     }
 }
 @media (min-width: 200px) and (max-width:299px) {
@@ -438,11 +784,18 @@ li {
 
     .oldimag2,
     .oldimag3,
-    .oldimag4 {
+    .oldimag6,
+    .oldimag7,
+    .oldimag8{
         width: 100%;
         height: 361px;
         top: 40px;
 
+    }
+    .oldimag4 ,.oldimag5 {
+        width: 100%;
+        height: 366px;
+        top: 40px;
     }
 }
 @media (min-width: 0px) and (max-width:199px) {
@@ -469,10 +822,17 @@ li {
 
     .oldimag2,
     .oldimag3,
-    .oldimag4 {
+    .oldimag6,
+    .oldimag7,
+    .oldimag8 {
         width: 100%;
         height: 361px;
         top: 40px;
 
+    }
+    .oldimag4 ,.oldimag5 {
+            width: 100%;
+            height: 366px;
+            top: 40px;
     }
 }
