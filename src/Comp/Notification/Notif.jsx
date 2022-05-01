@@ -1,17 +1,22 @@
 import React from 'react'
 import '../Notification/Notif.css'
+import {useState , useEffect} from "react"
+import {db} from "./firebase-confing"
+import {collection, getDocs} from 'firebase/firestore'
 
 function Notif() {
-  let noti = [
-    {noti: `കേന്ദ്ര _സംസ്ഥാന സർവകശാലകളിലേകു ള്ള പിജി എൻട്രൻസ് പരീക്ഷക്ക് തയ്യാറാടുക്കുന്ന വിദ്യാർത്ഥികൾക് ജോയിൻ ചെയ്യാം`, notiLink :  <a href="https://chat.whatsapp.com/H4fHyxfZsSk3p2CV8pmSE4">WhatsApp Group</a>},
-    {noti: `സംസ്കൃത സർവകലാശാല ബിരുദാനന്തര ബിരുദ പ്രോഗ്രാമുകളിലേക്കുള്ള അപേക്ഷ ക്ഷണിച്ചു |വിവിധ ഭാഷകൾ പഠിക്കാം`, notiLink :  <a href="https://ssus.ac.in/">Sree Sankaracharya University of Sanskrit</a>},
-    {noti: `കേരള യൂണിവേഴ്സിറ്റി ഡിപ്പാർട്ട്മെൻ്റിലേക്കുള്ള വിവിധ പി.ജി  കോഴ്സുകൾക്ക് അപേക്ഷ ക്ഷണിച്ചു`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Kerala University</a>},
-    {noti: `ജാമിഅ മില്ലിയ്യ ഇസ്ലാമിയ്യ 2022-23 അധ്യയന വർഷത്തേക്കുള്ള ഡിഗ്രീ, പിജി, ഡിപ്ലോമ എൻട്രൻസ് പരീക്ഷകൾക്ക് അപേക്ഷ ക്ഷണിച്ചു.`, notiLink : <a href="https://www.jmi.ac.in/">Jamia millia Islamic JMI</a>},
-    {noti: `Application invited for PG Entrance Test 2022 @ UNIVERSITY OF KERALA`, notiLink :  <a href="https://admissions.keralauniversity.ac.in/">Karala University PG</a>},
-    {noti : `DELHI UNIVERSITY: APPLICATIONS ARE INVITED FOR PG PROGRAMMES  📍Due date of application: 15 May 2022 📍Application fee: EN/OBC/EWS - ₹750 SC/ST/PwS - ₹300 For application:`, notiLink : <a href="https://pgadmission.uod.ac.in/" >Delhi Application</a>},
-    {noti : `കാലിക്കറ്റ് സര്‍വകലാശാല PG പ്രവേശനപരീക്ഷയ്ക്ക്  ഇപ്പോൾ അപേക്ഷിക്കാം `, notiLink : <a href="http://admission.uoc.ac.in/" >Calicut University PG Entrance</a>}, 
-    {noti:`MBA പ്രവേശന പരീക്ഷ ( കെ മാറ്റ്) അപേക്ഷ ക്ഷണിച്ചു`, notiLink : <a href="https://www.hctkmat.in/">MBA Admission 2020</a>},
-  ]
+    const [notif,setNotif] = useState([]);
+   const usersCollectionRef = collection(db , 'notif');
+    useEffect(() =>{  
+      const getUsers = async () => {
+        const data = await getDocs(usersCollectionRef);
+        console.log(data);
+        setNotif(data.docs.map((doc)=>({...doc.data(), id : doc.id})));
+      }
+      getUsers();
+
+    },[])
+ 
   return (
     <div className="Notif">
         <div className="notif_box">
@@ -20,16 +25,17 @@ function Notif() {
               <ul>
                 
                 {
-                  noti.map(function(item, index){
+                  notif.map((notif)=>{
                 
-                    return <div key={index}>
-                      <li>{item.noti}<br/>{item.notiLink}</li></div>
+                    return <div >
+                      <li>{notif.decr}<br/><a href={notif.link}>{notif.linkname}</a></li></div>
                   
                   })
 
                   }
                 
               </ul>
+           
             </div>
         </div>
         <div className="content-main">
