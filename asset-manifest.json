@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rise-up/static/css/main.feee954d.css",
-    "main.js": "/Rise-up/static/js/main.ec9daf93.js",
+    "main.js": "/Rise-up/static/js/main.a8cca323.js",
     "static/js/787.9854f2b8.chunk.js": "/Rise-up/static/js/787.9854f2b8.chunk.js",
     "static/media/BBA4C03 - Corporate Regulations.pdf": "/Rise-up/static/media/BBA4C03 - Corporate Regulations.00065d3b772d5d900184.pdf",
     "static/media/BCM4B06 - Corporate Regulations.pdf": "/Rise-up/static/media/BCM4B06 - Corporate Regulations.0a2cdebc9ca4c8b346c6.pdf",
@@ -78,11 +78,11 @@
     "static/media/cucet-2022.webp": "/Rise-up/static/media/cucet-2022.73d3e2323a7fc0cc16a1.webp",
     "index.html": "/Rise-up/index.html",
     "main.feee954d.css.map": "/Rise-up/static/css/main.feee954d.css.map",
-    "main.ec9daf93.js.map": "/Rise-up/static/js/main.ec9daf93.js.map",
+    "main.a8cca323.js.map": "/Rise-up/static/js/main.a8cca323.js.map",
     "787.9854f2b8.chunk.js.map": "/Rise-up/static/js/787.9854f2b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.feee954d.css",
-    "static/js/main.ec9daf93.js"
+    "static/js/main.a8cca323.js"
   ]
 }
